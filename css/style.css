@@ -1197,22 +1197,6 @@ body {
     color:#404BBF;
 }
 
-/* .info-li {
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.4px;
-    color: #434455;
-    padding-bottom: 24px;
-} */
-
-/* .address {
-    margin-top: 168px;
-    margin-bottom: 24px;
-}  */
-
 .media-list-ul {
     display: flex;
     justify-content: center;
