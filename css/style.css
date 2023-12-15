@@ -312,7 +312,7 @@ body {
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .section-hero {
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-mob@2x.jpg);
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab@2x.jpg);
             }
         }
    .hero-title {
@@ -327,7 +327,7 @@ body {
   @media screen and (min-width: 1158px) {
       .section-hero {
           padding: 188px 0;
-          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-mob.jpg);
+          background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab.jpg);
       }
 
       /* } з макету скачати підключити зображення з дисктопа версіі 1х 2х  */
@@ -336,7 +336,7 @@ body {
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
           .section-hero {
-              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-mob@2x.jpg);
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/bg-tab@2x.jpg);
           }
       }
 
@@ -1165,7 +1165,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
@@ -1179,18 +1178,26 @@ body {
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    gap: 40px;
     color: #2E2F42;
 }
-
-
+.mobile-menu-item {
+    padding-bottom: 40px;
+}
+.address-ul {
+    padding-top: 128px;
+}
 .mobile-menu-nav {
     padding-top: 72px;
 }
-.mobile-menu-item {
+/* .mobile-menu-item {
     margin-bottom: 40px;
+} */
+.mobile-menu-link:hover {
+    color:#404BBF;
 }
 
-.info-li {
+/* .info-li {
     font-family: Roboto;
     font-size: 20px;
     font-style: normal;
@@ -1199,21 +1206,22 @@ body {
     letter-spacing: 0.4px;
     color: #434455;
     padding-bottom: 24px;
-}
+} */
 
 /* .address {
     margin-top: 168px;
     margin-bottom: 24px;
-} */
+}  */
 
 .media-list-ul {
     display: flex;
     justify-content: center;
     gap: 40px;
     list-style-type: none;
+    margin-top: 24px;
 }
 
-.address-header {
+.address-header-li {
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -1226,7 +1234,7 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-header:hover,
-.address-header:focus {
+.address-header-li:hover,
+.address-header-li:focus {
     color: #404BBF;
 }
