@@ -1162,11 +1162,14 @@ body {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+        padding: 72px 24px 40px 16px;
 }
 .mobile-address {
     margin-top: auto;
 }
 .mobile-menu-close-btn {
+        top: 24px;
+        right: 24px;
     position: absolute;
     top: 0;
     right: 0;
@@ -1197,14 +1200,11 @@ body {
     gap: 40px;
     color: #2E2F42;
 }
+.address-icons-list {
+    margin-top: auto;
+}
 .mobile-menu-item {
     margin-bottom: 40px;
-}
-.address-ul {
-    padding-top: 128px;
-}
-.mobile-menu-nav {
-    padding-top: 72px;
 }
 
 .mobile-menu-link:hover {
